@@ -1,0 +1,28 @@
+abstratc class Car
+{
+  Car()
+  {
+    System.out.println("Built the Car");
+  }
+  abstract void drive();
+  void changegear()
+  {
+    System.out.println("Changed Gear");
+  }
+}
+class Audi extends Car
+{
+  void drive()
+   {
+     System.out.println("Drive Safely");
+    }
+ }
+ class Abstract
+ {
+  public static void main(String args[])
+  {
+    Car o=new Audi();
+    o.drive();
+    o.changegear();
+   }
+  }
