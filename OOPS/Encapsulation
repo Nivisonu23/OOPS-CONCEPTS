@@ -1,0 +1,21 @@
+class StudentCount
+{
+  private int numOfStudents = 0;
+  public void setNoOfStudents(int count)
+  {
+    numOfStudents = count;
+  }
+  public double getNoOfStudents()
+  {
+    return numOfStudents;
+  }
+}
+public class Encapsulation
+{
+  public static void main(String args[])
+  {
+    StudentCount o = new StudentCount;
+    o.setNoOfStudents(6000);
+    System.out.println("Number Of Students: "+(int)o.getNoOfStudents());
+  }
+}
