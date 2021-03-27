@@ -1,0 +1,26 @@
+class Bird
+{
+  public void birdSound() {
+    System.ou.println("The bird makes a sound");
+  }
+}
+class Parrot extends Bird {
+  public void birdSound() {
+    System.ou.println("The parrot says: KiKi KiKi");
+  }
+}
+class Sparrow extends Bird {
+  public void birdSound() {
+    System.ou.println("The sparrow says: KuKu KuKu");
+  }
+}
+class Main  {
+  public static void main(String[] args)
+  Bird b = new Bird();
+  Bird p = new Parrot();
+  Bird s = new Sparrow();
+  b.birdSound();
+  p.birdSound();
+  s.birdSound();
+  }
+}
