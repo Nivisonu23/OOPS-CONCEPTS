@@ -5,7 +5,7 @@ class StudentCount
   {
     numOfStudents = count;
   }
-  public double getNoOfStudents()
+  public void getNoOfStudents()
   {
     return numOfStudents;
   }
